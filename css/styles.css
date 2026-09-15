@@ -1,3 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* Temp */
+    border: solid black 1px;
+}
+
 body {
-    background-color: red;
+    background: white;
+    color: black;
+    display: grid;
+    grid-template: auto / 1fr 1fr 1fr 1fr 1fr;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-left: auto;
+}
+
+nav {
+    
+    grid-column: span 5;
 }
