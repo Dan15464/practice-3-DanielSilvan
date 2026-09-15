@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     /* Temp */
-    border: solid black 1px;
+    /* border: solid black 1px; */
 }
 
 body {
@@ -17,7 +17,7 @@ body {
 }
 
 nav {
-        grid-column: span 5;
+    grid-column: span 5;
 }
 
 header {
